@@ -2,6 +2,10 @@
 
 > "The Oracle Keeps the Human Human"
 
+**Build your own AI agent system that remembers, learns, and evolves.** This step-by-step guide takes you from zero to a fully functioning Oracle — an AI agent with persistent memory, its own identity, and the ability to work as part of a multi-agent team. No advanced programming required — just a terminal and curiosity.
+
+---
+
 ## Oracle คืออะไร?
 
 Oracle คือระบบ AI agent ที่ **จำได้ เรียนรู้ได้ พัฒนาได้** — ไม่ใช่แค่ chatbot ที่ลืมทุกอย่างเมื่อปิดหน้าจอ
@@ -37,6 +41,7 @@ Oracle คือระบบ AI agent ที่ **จำได้ เรีย�
 | 7 | [พูดคุยกับ Oracle อื่น](steps/07-talk-to-oracles.md) | Oracle คุยกันเป็นทีมได้ |
 | 8 | [Session Lifecycle](steps/08-session-lifecycle.md) | rhythm ของทุก session |
 | 9 | [Multi-Oracle Setup](steps/09-multi-oracle.md) | หลาย Oracle ทำงานพร้อมกัน |
+| 10 | [maw-js Setup](steps/10-maw-js-setup.md) | ติดตั้ง + ใช้งาน maw ฉบับสมบูรณ์ |
 
 แต่ละ step ใช้เวลา 15-30 นาที — ไม่ต้องรีบ เรียนให้เข้าใจก่อนไปต่อ
 
@@ -53,15 +58,16 @@ Oracle คือระบบ AI agent ที่ **จำได้ เรีย�
 → [Step 0: เตรียมเครื่อง](steps/00-prerequisites.md)
 
 
-## เรียนจบ Step 9 แล้ว ทำอะไรต่อ?
+## เรียนจบ Step 10 แล้ว ทำอะไรต่อ?
 
 | ลำดับ | คู่มือ | เนื้อหา |
 |-------|--------|---------|
 | 1 | [oracle-maw-guide](https://github.com/the-oracle-keeps-the-human-human/oracle-maw-guide) | maw CLI — ส่งข้อความ จัดการทีม ตั้ง loops |
 | 2 | [oracle-custom-skills](https://github.com/the-oracle-keeps-the-human-human/oracle-custom-skills) | สร้าง skill ของตัวเอง — 10 บท + ตัวอย่าง |
-| 3 | [oracle-skills-deep-dive](https://github.com/the-oracle-keeps-the-human-human/oracle-skills-deep-dive) | เจาะลึก 29 skills ที่ Oracle ใช้ได้ |
+| 3 | [oracle-skills-deep-dive](https://github.com/the-oracle-keeps-the-human-human/oracle-skills-deep-dive) | เจาะลึก built-in skills ที่ Oracle ใช้ได้ |
 | 4 | [ai-that-remembers-you](https://github.com/the-oracle-keeps-the-human-human/ai-that-remembers-you) | คู่มือเริ่มต้น — ไม่ต้องเขียนโค้ดเป็น |
 | 5 | [beginner-learns-oracle](https://github.com/the-oracle-keeps-the-human-human/beginner-learns-oracle) | ประสบการณ์จริงจากมือใหม่ |
+| 6 | [oracle-office](https://github.com/the-oracle-keeps-the-human-human/oracle-office) | โครงสร้างสำหรับ Oracle หลายตัวทำงานร่วมกัน |
 
 ## มีคำถาม?
 
