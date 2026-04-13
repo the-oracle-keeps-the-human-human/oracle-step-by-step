@@ -54,7 +54,7 @@ maw hey bob "cc: เสร็จ task แล้ว"
 npm install -g maw-js
 
 # หรือจาก source
-git clone https://github.com/BankCurfew/maw-js.git
+git clone https://github.com/Soul-Brews-Studio/maw-js.git
 cd maw-js && npm install && npm link
 ```
 
