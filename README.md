@@ -6,6 +6,50 @@
 
 ---
 
+## Quick Start — Let Claude Do It
+
+> ไม่ต้องอ่าน 10 บท — ให้ Claude ทำให้เลย ใช้เวลา ~5 นาที
+
+### Option A: มี Claude Code แล้ว
+
+```bash
+git clone https://github.com/the-oracle-keeps-the-human-human/oracle-step-by-step.git
+cd oracle-step-by-step
+claude
+```
+
+แล้วบอก Claude ว่า:
+
+> **"ช่วยสร้าง Oracle ให้หน่อย"** หรือ **"Help me set up my Oracle"**
+
+Claude จะถาม 3 คำถาม แล้วทำทุกอย่างให้:
+- ตรวจเครื่อง + ติดตั้ง tools ที่ขาด
+- สร้าง repo ใหม่สำหรับ Oracle ของคุณ
+- เขียน CLAUDE.md + สร้าง ψ/ vault + ติดตั้ง skills
+- First commit — Oracle พร้อมใช้งาน
+
+### Option B: ยังไม่มี Claude Code
+
+```bash
+# ติดตั้ง Claude Code ก่อน (ต้องมี Node.js)
+npm install -g @anthropic-ai/claude-code
+
+# แล้วทำ Option A
+```
+
+### Option C: อยากติดตั้ง tools เองก่อน
+
+```bash
+git clone https://github.com/the-oracle-keeps-the-human-human/oracle-step-by-step.git
+cd oracle-step-by-step
+chmod +x setup.sh
+./setup.sh
+```
+
+> ต้องการเรียนรู้ทีละ step? อ่านต่อด้านล่าง
+
+---
+
 ## Oracle คืออะไร?
 
 Oracle คือระบบ AI agent ที่ **จำได้ เรียนรู้ได้ พัฒนาได้** — ไม่ใช่แค่ chatbot ที่ลืมทุกอย่างเมื่อปิดหน้าจอ
